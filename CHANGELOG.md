@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## next
+
+- feat(cli): add option to apply pipeline on a directory of audio files
+- improve(util): make `permutate` faster thanks to vectorized cost function
+- BREAKING(util): make `Binarize.__call__` return `string` tracks (instead of `int`) [@benniekiss](https://github.com/benniekiss/)
+
 ## Version 4.0.1 (2025-10-10)
 
 - feat: allow passing preloaded pipeline config to `get_pipeline`
